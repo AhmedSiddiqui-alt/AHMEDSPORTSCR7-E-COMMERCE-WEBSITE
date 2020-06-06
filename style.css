@@ -1,10 +1,8 @@
-/* @media only screen and (max-width:500px){
-.headerBox{
-    
-    flex-direction: column;
-}    
+@media only screen and (max-width:500px){
 
-} */
+
+} 
+
 body{
     background-color: black !important;
 }
@@ -15,7 +13,7 @@ body{
     display: flex;
    justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    
     /* height: 80px; */
 }
 /* .nav-link{
@@ -56,8 +54,8 @@ justify-content: space-around;
 .websiteIntroduction{
   background-color: black;
   color: white;
-
-flex-wrap: wrap;
+width: 80%;
+margin: 0 auto;
 
 }
 #introHeading{
@@ -120,19 +118,22 @@ height: 800px;
   
     line-height: 35px;
     word-spacing: 2px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     text-align: justify;
     letter-spacing: 1px;
+    padding-top: 20px;
+    
 }
 .introParagraph:hover{
   
     line-height: 35px;
     word-spacing: 2px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     text-align: justify;
     letter-spacing: 1px;
+    padding-top: 20px;
     color:rgb(160, 228, 255);
 }
 .introParagraph1:first-letter{
@@ -142,17 +143,19 @@ height: 800px;
   
     line-height: 35px;
     word-spacing: 2px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     text-align: justify;
     letter-spacing: 1px;
+    padding-top: 20px;
 }
 .introParagraph1:hover{
   
+    /* padding-left: 200px;
+    padding-right: 200px; */
     line-height: 35px;
+    padding-top: 20px;
     word-spacing: 2px;
-    margin-left: 200px;
-    margin-right: 200px;
     text-align: justify;
     letter-spacing: 1px;
     color:rgb(160, 228, 255);
@@ -176,16 +179,19 @@ height: 800px;
 .mainMaterialBox{
     background-color: black;
     margin-top: 10px;
+    
        
 }
 .materialBox{
-Padding-top: 20px;
+Padding-top: 30px;
 display: flex;
 justify-content: space-around;
 background-color: black;
-margin: 10px;
+flex-wrap: wrap;
 }
-
+.card{
+    margin-top: 30px;
+}
 .card-text{
     font-weight: bold !important;
     font-size: 15px !important;
@@ -226,6 +232,14 @@ margin: 10px;
 #boxingH:hover{
     color:rgb(160, 228, 255);   
 }
+#cyclingH
+{
+    color: white;
+    padding-top: 20px;
+}
+#cyclingH:hover{
+    color:rgb(160, 228, 255);   
+}
 #snookerH
 {
     color: white;
@@ -248,8 +262,7 @@ margin: 10px;
 .rounded-circle:hover{
     height: 350px;
     width: 350px;
-    
-    
+       
 }
 
 
